@@ -28,7 +28,7 @@ class Uygulamam extends StatelessWidget {
           child: Column(
             children: [
               Container(
-                padding: const EdgeInsets.all(20),
+                padding: const EdgeInsets.all(20), // padding görevi görür
                 margin: const EdgeInsets.all(20),
                 decoration: BoxDecoration(
                   //container özelleştirmeleri yapılabilir
@@ -47,11 +47,11 @@ class Uygulamam extends StatelessWidget {
                 alignment:
                     Alignment
                         .center, // alignitems ve justifyitems ikisini bir kullanır
-                child: const Text('Ruwis', style: TextStyle(fontSize: 24)),
+                child: const Text('Sinan', style: TextStyle(fontSize: 24)),
               ),
               Padding(
                 padding: const EdgeInsets.only(top: 200),
-                child: Image.asset('assets/images/sample.jpg', height: 100),
+                child: Image.asset('assets/images/sample.jpg', height: 200),
               ),
               const SizedBox(
                 width: 200,
